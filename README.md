@@ -1,4 +1,4 @@
-![](MLOPS-banner.jpeg)
+![](MLOPs_Tfx.png)
 
 # Machine Learning Engineering for Production (MLOps) Specialization on Coursera (offered by deeplearning.ai)
 
