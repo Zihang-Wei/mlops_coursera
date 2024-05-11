@@ -6,7 +6,7 @@ Programming assignments from all courses in the Coursera [Machine Learning Engin
 
 ## Courses
 
-The GAN Specialization on Coursera contains three courses:
+The Specialization on Coursera contains three courses:
 
 1. [Course 1: Introduction to Machine Learning in Production](https://www.coursera.org/learn/introduction-to-machine-learning-in-production?specialization=machine-learning-engineering-for-production-mlops)
 
@@ -207,4 +207,4 @@ By the end, you'll be ready to:
 	
 ## Disclaimer
 
-I recognize the hard time people spend on building intuition, understanding new concepts and debugging assignments. The solutions uploaded here are **only for reference**. They are meant to unblock you if you get stuck somewhere. Please do not copy any part of the code as-is (the programming assignments are fairly easy if you read the instructions carefully). Similarly, try out the quizzes yourself before you refer to the quiz solutions.
+**only for reference**
