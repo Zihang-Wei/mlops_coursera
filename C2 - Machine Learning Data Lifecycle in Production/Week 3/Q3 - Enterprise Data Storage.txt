@@ -1,0 +1,93 @@
+Enterprise Data Storage
+Total points 4
+1.
+Question 1
+As data evolves during its life cycle, which of the following factors should ML pipelines address to operate properly?(check all that apply).
+
+1 / 1 point
+
+> Account for scalable solutions.
+
+Correct
+Spot on. Production traffic will vary from day to day and thus your pipeline must scale accordingly. 
+
+
+> Account for anomaly detection.
+
+Correct
+Way to go! For example data errors must be handled in the same way as code bugs.
+
+
+> Provide resilient mechanisms for disruptions.
+
+Correct
+Keep it up!. For example ML pipelines should incorporate resilient mechanisms to deal with inconsistent data.
+
+
+ Use feature engineering.
+
+
+Monitor model and data provenance.
+
+2.
+Question 2
+Many modeling problems use identical or similar features, and there is substantial value in enabling teams to share features between their own projects and for teams in different organizations to share features with each other. Which of the following storage solutions is deliberately designed to address these user cases?
+
+1 / 1 point
+
+Relational database
+
+
+> Feature Store
+
+Correct
+Correct! Feast is an example of an open source feature store.
+
+
+Data lake
+
+
+Data warehouse
+
+3.
+Question 3
+Which are the main advantages of using a cloud-based data warehouse ?(check all that apply)
+
+1 / 1 point
+
+User needs to handle all maintenance
+
+
+> They are cost efficient
+
+Correct
+Perfect! Otherwise all the software and hardware costs will be handled by your organization. 
+
+
+User owns and controls data governance.
+
+
+> Provides easy on-demand scalable solution
+
+Correct
+Nice going! Cloud solutions are really flexible for scaling up.
+
+4.
+Question 4
+About data lakes it’s only true that:
+
+1 / 1 point
+
+Handles only structured data.
+
+
+Handles only processed data
+
+
+> Can handle both structured and unstructured data.
+
+
+Aggregates data from a single source only.
+
+Correct
+That’s right! Data lakes are really flexible in the type of data they can handle.

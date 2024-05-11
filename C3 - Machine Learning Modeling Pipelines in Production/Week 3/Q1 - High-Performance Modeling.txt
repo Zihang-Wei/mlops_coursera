@@ -1,0 +1,102 @@
+Total points 6
+1.
+Question 1
+True Or False: In the model parallelism, the models are replicated into different devices (GPU) and trained on data batches.
+
+1 / 1 point
+
+> False
+
+
+True
+
+Correct
+That's right! In model parallelism, you segment the model into different subsections, running concurrently in other nodes, and synchronize the shared parameters on the same training data. 
+
+2.
+Question 2
+Which of the following terminologies are often used in the world of distributed computing? (Select all that apply)
+
+1 / 1 point
+
+Copy
+
+
+> Mirrored Variable
+
+Correct
+That's right! When you copy the same variables in the model to multiple devices, they are called mirrored variables. Training methodologies keep these variables in sync across various devices.
+
+
+> Worker
+
+Correct
+That's right! The term worker is very common and is defined as the accelerator on which some calculations are performed, as in this replica.
+
+
+> Device
+
+Correct
+That's right! The term device is very commonly used to refer to a CPU or an accelerator like a GPU or TPU on any physical machine which runs machine learning models during different stages of its life cycle.
+
+3.
+Question 3
+True or False: The pipeline performance can be optimized through parallelizing data extraction and transformation. 
+
+1 / 1 point
+
+False
+
+
+> True
+
+Correct
+That’s right! Parallelizing processes, like data extraction or data transformation or both, is a way to accelerate your pipeline performance.
+
+4.
+Question 4
+True or False: TensorFlow offers techniques to optimize pipeline performance like prefetching, parallelizing data extraction and transformation, caching and reducing memory. These techniques are available through the  sklearn.decomposition API.
+
+1 / 1 point
+
+> False
+
+
+True
+
+Correct
+That’s correct! The API incorporating prefetching, parallelizing data extraction and transformation, caching and reducing memory is tf.data.
+
+5.
+Question 5
+True Or False: As important developments in both model growth and hardware improvement have been made, parallelism becomes an alternative of greater importance. 
+
+1 / 1 point
+
+False
+
+
+> True
+
+Correct
+That’s correct! Even in recent years the size of machine learning models has been increasing, hardware accelerators (like GPUs and TPUs) have also been growing, but at a slower pace.
+
+6.
+Question 6
+ The _______ library uses synchronous mini-batch gradient descent for training in a distributed way. 
+
+1 / 1 point
+
+Pandas
+
+
+> GPipe
+
+
+Scikit-learn
+
+
+Scipy
+
+Correct
+That’s right! This distributed machine learning library allows you to make partition models across different accelerators and automatically splits a mini-batch of training examples into smaller micro-batches in a distributed way.

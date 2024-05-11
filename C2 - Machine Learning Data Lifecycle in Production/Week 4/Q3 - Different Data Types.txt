@@ -1,0 +1,62 @@
+Different Data Types
+Total points 3
+1.
+Question 1
+Visualizing an audio signal in the time domain usually reveals very little information on its spectral content. Which graphical representation displays the amplitude changes for each frequency as a function of time?
+
+1 / 1 point
+
+librosa
+
+
+Short-Time Fourier Transform.
+
+
+Feature normalization
+
+
+> Spectrogram.
+
+Correct
+Spot on! Check this page for more information on spectrograms. 
+
+2.
+Question 2
+What would be a striking caveat or shortcoming of interpreting a video just as a series of images? 
+
+1 / 1 point
+
+Hindering classifier accuracy.
+
+
+Unnecessarily increasing the dimensionality of the dataset.
+
+
+Considering that all subsequent frames are correlated.
+
+
+> Losing the semantic context coming from the sequence of events.
+
+Correct
+Correct! Videos are time series as well and thus the ordering of events matter a great deal. 
+
+3.
+Question 3
+In the analysis of the weather time series data set you saw that the samples were acquired at a rate of 6 samples per hour. You also know that weather changes typically occur on a much slower time scale. What is a valid sampling strategy to make predictions into the future for this specific case?
+
+1 / 1 point
+
+> Windowing and omitting samples. 
+
+
+Omitting samples.
+
+
+Upsampling by interpolation.
+
+
+Use one sample at a time to make predictions.
+
+Correct
+Right on! Taking a finite window of data plus downsampling is the way to go for slow time varying signals.
+

@@ -1,0 +1,67 @@
+Schema Environments
+Total points 3
+1.
+Question 1
+Schemas are relational objects summarizing the features in a dataset including: (Check all that apply).
+
+1 / 1 point
+
+Feature misconfigurations
+
+
+> Feature valency
+
+Correct
+You’ve got it
+
+
+> Feature type
+
+Correct
+Well done!
+
+
+> Feature name
+
+Correct
+Right on track!
+
+2.
+Question 2
+As data keeps evolving, the ML platform of your choice should be resilient to: (Check all that apply)
+
+1 / 1 point
+
+> Disruptions from software
+
+Correct
+Right on track!
+
+
+High data volume
+
+
+> Misconfigurations
+
+Correct
+You’ve got it
+
+
+> Inconsistent Data
+
+Correct
+Well done!
+
+3.
+Question 3
+Your system and your development process must treat data errors as first-class citizens, just like code bugs.
+
+1 / 1 point
+
+False
+
+
+> True 
+
+Correct
+Nailed it! Data errors should be treated as first class citizens, just like code bugs.

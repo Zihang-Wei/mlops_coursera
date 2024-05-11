@@ -1,0 +1,51 @@
+Total points 3
+1.
+Question 1
+What is the purpose of ETL pipelines?
+
+1 / 1 point
+
+To codify and automate the workflow it takes to produce a machine learning model.
+
+
+To make batch predictions.
+
+
+> To extract data from data sources, transforming, and loading it into an output destination.
+
+Correct
+Well done!
+
+2.
+Question 2
+True or False: In distributed processing, latency increases because data is split into chunks and parallely processed by multiple workers.
+
+1 / 1 point
+
+> False
+
+
+True
+
+Correct
+Absolutely!
+
+3.
+Question 3
+Which of the following engines perform ETL on data? (Select all that apply)
+
+1 / 1 point
+
+Data Lake
+
+
+> Apache spark
+
+Correct
+Thas't right!
+
+
+> Google Cloud DataFlow
+
+Correct
+Right!

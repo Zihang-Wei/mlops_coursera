@@ -1,0 +1,49 @@
+Total points 3
+1.
+Question 1
+In many instances it is necessary to understand how the model is working internally. This is very useful when you are experimenting with new architectures to understand how data is flowing internally within each layer of the model. This can help you adjust and iterate on your model architecture to improve performance and efficiency. Which of the following is a correct approach to understand the inner workings of a given model?
+
+1 / 1 point
+
+Performance metrics
+
+
+Optimization objective
+
+
+> Model introspection
+
+
+Black box evaluation
+
+Correct
+That’s right! Model introspection for example will allow you to elucidate which data points activate certain layers of the mode and then adjust your design based on these observations.
+
+2.
+Question 2
+TensorBoard is an example of a tool for black-box evaluation.
+
+1 / 1 point
+
+False
+
+
+> True
+
+Correct
+Well done! TensorBoard can monitor the loss and accuracy of every iteration of the model.
+
+3.
+Question 3
+Performance metrics are independent of the kind of task done.
+
+1 / 1 point
+
+> False
+
+
+True
+
+Correct
+Good job! They will be different for different types of tasks like classification, regression, etc.
+

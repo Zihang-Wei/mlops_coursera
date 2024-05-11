@@ -1,0 +1,57 @@
+Total points 3
+1.
+Question 1
+True or False: Data values that differ significantly from other observations are dealt with at the end of the preprocessing process.
+
+1 / 1 point
+
+True
+
+
+> False
+
+Correct
+Exactly!
+
+2.
+Question 2
+In which step you transform a given set of input features to generate a new set of more powerful features for prediction?
+
+1 / 1 point
+
+> Feature Construction
+
+
+Feature Tuning
+
+
+Feature Selection
+
+Correct
+Well done!
+
+3.
+Question 3
+Which of the following are classic uses of Representation Transformations? (Select all that apply)
+
+1 / 1 point
+
+Normalization
+
+
+> Change data format for the model
+
+Correct
+Perfect!
+
+
+> Vectorization
+
+Correct
+That's right!
+
+
+> One-hot encoding
+
+Correct
+Good job!

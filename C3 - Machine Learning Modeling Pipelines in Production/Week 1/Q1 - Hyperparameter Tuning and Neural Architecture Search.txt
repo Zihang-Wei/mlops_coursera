@@ -1,0 +1,54 @@
+Hyperparameter Tuning and Neural Architecture Search
+Total points 3
+1.
+Question 1
+Neural Architecture Search (NAS) was a promising technique that failed to surpass hand-designed architectures in terms of test set accuracy.
+
+1 / 1 point
+
+True
+
+
+> False
+
+Correct
+Spot on! In fact, NAS can design a novel network architecture that rivals the best human-invented architecture.
+
+2.
+Question 2
+Which of the following characteristics best describe hyperparameters? (Select all that apply)
+
+1 / 1 point
+
+> Hyperparameters can be quite numerous even in small models.
+
+Correct
+Great job! Hyperparameters can be numerous, so, performing manual hyperparameter tuning can be a real brain teaser.
+
+
+> Hyperparameters are set before launching the learning process.
+
+Correct
+Excellent! They need to be set before model training begins.
+
+> Hyperparameters are not optimized in each training step.
+
+Correct
+You’re right on track! Hyperparameters are not automatically optimized during the training process.
+
+Hyperparameters are derived via training.
+
+You didn’t select all the correct answers
+3.
+Question 3
+Does KerasTuner support multiple strategies?
+
+1 / 1 point
+
+> Yes
+
+
+No
+
+Correct
+Exactly! KerasTuner comes with Bayesian Optimization, Hyperband, and Random Search algorithms built-in.

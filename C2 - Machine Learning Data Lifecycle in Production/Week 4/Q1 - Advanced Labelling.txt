@@ -1,0 +1,64 @@
+Advanced Labelling
+Total points 3
+1.
+Question 1
+What is weak supervision useful for?
+
+1 / 1 point
+
+> Creating and structuring training datasets through programming.
+
+Correct
+That’s right!
+
+
+Managing training datasets by hand labeling.
+
+
+> Taking advantage of input from experts in the field.
+
+Correct
+You got it!
+
+2.
+Question 2
+Which of the following statements about labeling techniques is true?
+
+1 / 1 point
+
+> Label propagation is a technique used in semi-supervised algorithms based on the similarity of different data points.
+
+
+Active Learning doesn’t require the feedback from a ML model to select the next data points to label.
+
+
+Active Learning shouldn’t be used on imbalanced datasets
+
+
+Direct Labeling is slow and expensive compared to other labeling techniques
+
+Correct
+That’s correct! 
+
+3.
+Question 3
+Weak Supervision is one of the methods used in production ML to label data. Which of the following statements are true about it?
+
+1 / 1 point
+
+> Weak supervision uses heuristics or labelling functions instead of deterministic labels.
+
+Correct
+Correct! 
+
+
+> It uses generative models to determine weights for supervision sources
+
+Correct
+That’s right!
+
+
+Weak Supervision is more expensive than Human Labeling.
+
+
+Weak supervision allows sampling data intelligently for labeling

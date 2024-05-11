@@ -1,0 +1,204 @@
+AutoML
+Total points 9
+1.
+Question 1
+Can Neural Architecture Search (NAS) be seen as a subfield of AutoML?
+
+1 / 1 point
+
+No
+
+
+> Yes
+
+Correct
+Exactly! NAS can be seen as a subfield of AutoML and has significant overlap with hyperparameter optimization and meta-learning.
+
+2.
+Question 2
+Which of the following are dimensions of the Neural Architecture Search (NAS) technique? (Select all that apply)
+
+1 / 1 point
+
+> Search Space
+
+Correct
+Right! The search space defines the range of architectures that can be represented.
+
+
+Training and Validation of the Architecture
+
+
+> Performance Estimation Strategy
+
+Correct
+You got it! The objective of NAS is typically to find an architecture with the highest predictive performance.
+
+
+> Search Strategy
+
+Correct
+Keep it up! The search strategy details how to explore the search space.
+
+3.
+Question 3
+What does the search space allow in Neural Architecture Search (NAS)? (Select all that apply)
+
+1 / 1 point
+
+> Restricting unbounded search spaces to have a maximum depth.
+
+Correct
+Great job! It gives rise to search spaces with (potentially many) conditional dimensions.
+
+
+Defining how we explore the search space.
+
+
+
+> Reducing the size of the search space incorporating prior knowledge about well-suited properties.
+
+Correct
+That's right! This task can simplify the search space.
+
+
+> Defining which neural architectures we might discover in principle.
+
+Correct
+You're right on track!. The search space defines which architectures can be represented.
+
+4.
+Question 4
+In the chain-structured Neural Network Architecture (NNA), space is parametrized by (Select all that apply):
+
+1 / 1 point
+
+> A number of n sequentially fully-connected layers.
+
+Correct
+Spot on! A chain-structured NNA can be written as a sequence of n layers.
+
+
+> Hyperparameters associated with the operation.
+
+Correct
+Well done! Search space is related to the number of units for fully connected networks.
+
+
+> The operation every layer can execute.
+
+Correct
+Excellent!. Among the most common operations are pooling, convolution, and more advanced layers.
+
+
+The multiple branches with additional layers types and skip connections.
+
+5.
+Question 5
+What are the main features of Automated Machine Learning (AutoML)? (Select all that apply)
+
+1 / 1 point
+
+> AutoML technologies democratize AI with customized state-of-the-art machine learning.
+
+Correct
+That’s true! AutoML seeks to make state-of-the-art machine learning approaches accessible to data scientists with limited machine learning expertise.
+
+
+AutoML is the process of automating architecture engineering and finding the design of machine learning models.
+
+
+> AutoML aims to automate the decision-making in a data-driven and objective way.
+
+Correct
+Correct! AutoML determines the approach that works best for a certain application.
+
+
+> AutoML aims to automate the end-to-end process of machine learning to produce simpler and faster solutions.
+
+Correct
+Indeed! AutoML enables developers -even those with minimal experience in machine learning- to readily produce simple, optimal solutions.
+
+6.
+Question 6
+What are the two main types of search spaces?
+
+1 / 1 point
+
+> Macro and Micro
+
+
+Complex and Simple
+
+
+Long and Short
+
+
+Big and Small
+
+Correct
+Good job! Although their names are kind of backwards, that's what they're called.
+
+7.
+Question 7
+In measuring AutoML efficacy, several strategies have been proposed to reduce performance cost estimation, including (Select all that apply):
+
+1 / 1 point
+
+> Learning Curve Extrapolation
+
+Correct
+Nicely done! Extrapolation is a sensitive and valid choice based on the assumption that the learning curve can be reliably predicted.
+
+> Weight Inheritance/ Network Morphisms
+
+Correct
+Nailed it! Using network morphism, the weights of novel architectures are initialized based on the weights in previously trained architectures.
+
+> Lower fidelity estimates
+
+Correct
+Yes! Lower fidelity estimates try to reduce the training time by reframing the problem.
+
+Reinforcement learning
+
+You didn’t select all the correct answers
+8.
+Question 8
+The lower fidelity estimates are a performance estimation strategy that allows (Select all that apply):
+
+1 / 1 point
+
+> Training with less filters per layer
+
+Correct
+Way to go! The lower fidelity estimates strategy uses fewer filters per layer and fewer cells.
+
+
+> Training on a subset of the data
+
+Correct
+Correct! It also reduces training times.
+
+
+> Training on lower-resolution
+
+Correct
+That's it! The lower fidelity reduces the computational cost as a result.
+
+
+Training for a few epochs
+
+9.
+Question 9
+Can network morphism modify an architecture while leaving the network's function unchanged?
+
+1 / 1 point
+
+> Yes
+
+
+No
+
+Correct
+Exactly! This property increases the network’s capacity retaining a high performance as a result.

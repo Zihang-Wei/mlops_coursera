@@ -1,0 +1,47 @@
+Data Augmentation
+Total points 3
+1.
+Question 1
+Which of the following statements are true on data augmentation?
+
+1 / 1 point
+
+Data Augmentation should be applied at serving time.
+
+
+Data Augmentation always helps improving the performance of ML models.
+
+
+> tf.image offers a set of functions to augment image data.
+
+Correct
+Good job! Examples include: tf.image.resize_with_crop_or_pad(), tf.image.random_crop(), tf.image.random_flip_left_right()
+
+2.
+Question 2
+Data augmentation is a strategy to significantly increase the data set available for training models without having to collect new data.
+
+1 / 1 point
+
+> Yes
+
+
+No
+
+Correct
+Absolutely! It Increases diversity and number of examples in training data.
+
+3.
+Question 3
+Data augmentation is a technique that allows us to increase our training data set to improve accuracy and avoid overfitting.
+
+1 / 1 point
+
+> True
+
+
+False
+
+Correct
+Perfect! It also acts as a regularizer and helps reduce overfitting when training a machine learning model.
+

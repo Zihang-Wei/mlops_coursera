@@ -1,0 +1,80 @@
+Total points 4
+1.
+Question 1
+When does the minor version number increase in the MAJOR.MINOR.PIPELINE approach of model versioning?
+
+1 / 1 point
+
+> When we’ve improved the model's output.
+
+
+When we have an incompatible data change.
+
+
+When you make backward-compatible bug fixes.
+
+
+When you make incompatible API changes.
+
+Correct
+Spot on! The minor version will increment when we believe that we've improved or enhanced the model's output.
+
+2.
+Question 2
+Which well known product uses pipeline execution versioning?
+
+1 / 1 point
+
+> TensorFlow Extended
+
+
+Microsoft Azure AI
+
+
+Google Cloud AI Prediction
+
+Correct
+That's right! TFX uses pipeline execution versioning. In this style, a new version is defined with each successfully run training pipeline. Models will be versioned regardless of changes to model architecture, input, or output.
+
+3.
+Question 3
+What are some non-standard ML Unit Testing Considerations? (Select all that apply)
+
+1 / 1 point
+
+Uniqueness
+
+
+> Data Coverage
+
+Correct
+Way to go! Ideally, your mocks should occupy roughly the same region of your feature space as the actual data would, but much more sparsely, of course.
+
+
+> Mocking
+
+Correct
+Nice job! Designing mocks of datasets is essential for ML unit testing. They should cover your edge and corner cases, requiring you to think about your features and domain.
+
+
+> Code Coverage
+
+Correct
+Well done! If you've created good mocks and good tests, you should have good code coverage. Using the available code coverage libraries, you can test and track that you're not missing unit tests for any part of the code.
+
+4.
+Question 4
+Which of the following is true about the comparison between canary and blue-green deployment?
+
+1 / 1 point
+
+> Canary is cheaper than a blue-green deployment because it does not require two production environments.
+
+
+Canary deployment is riskier than blue-green deployment because it shifts all user traffic at once.
+
+
+Blue-green deployment is more complex, slower, and harder to implement than canary deployment.
+
+Correct
+Exactly! Canary deployments allow organizations to test in production with real users and cases and compare different service versions side by side.

@@ -1,0 +1,55 @@
+Feature Transformation
+Total points 3
+1.
+Question 1
+Transformation operations can happen at the instance level or be applied to the entire dataset. Which one is an instance-level transformation?
+
+1 / 1 point
+
+> Feature Cross
+
+
+Bucketizing
+
+
+Standard Scaling
+
+
+Minmax
+
+Correct
+You’ve got it right!
+
+2.
+Question 2
+In a pre-processing training dataset, all transformations that are carried out in the training set must also be done in the serving set:
+
+1 / 1 point
+
+> True
+
+
+False
+
+Correct
+Perfect! Also, this is considered a con, as it can produce slower iterations being less efficient than in the training.
+
+3.
+Question 3
+What statement is true about TensorFlow Transform?
+
+1 / 1 point
+
+TF Transform Analyzers are run during training and serving time
+
+
+> TF Transform eliminates the risk of introducing training-serving skew
+
+
+TF Transform requires specifying preprocessing steps at serving time
+
+
+In a TFX pipeline, this component is usually placed after TF trainer
+
+Correct
+Good call! TF Transform uses the same code path for both training and serving.
